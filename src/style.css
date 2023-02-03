@@ -1,0 +1,35 @@
+#kor{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px gray;
+}
+
+
+
+tr:nth-child(2n){
+    background-color: orange;
+}
+tr:nth-child(2n+1) {
+    background-color: yellow;
+}
+.doboz{
+    background-image: -webkit-linear-gradient(left, black 20%, red 40%);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+
+    box-shadow: 15px 15px 20px black;
+    margin-left: auto;
+    margin-right: auto;
+    outline-style: calc();
+}
+.doboz :hover{
+    -webkit-animation: circle 10s infinite linear;
+}
+.kacsa{
+    background-color: aqua;
+    height: auto;
+    width: auto;
+}
